@@ -1,20 +1,28 @@
 {
-  "name": "Thread-Backend-App",
+  "name": "thread-backend-app",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
     "@types/express": "^5.0.0",
+    "@types/node": "^22.9.3",
+    "prisma": "^5.22.0",
+    "ts-node": "^10.9.2",
     "tsc-watch": "^6.2.1",
+    "tsx": "^4.19.2",
     "typescript": "^5.7.2"
   },
   "dependencies": {
     "@apollo/server": "^4.11.2",
+    "@prisma/client": "^5.22.0",
     "express": "^4.21.1",
     "graphql": "^16.9.0"
   },
   "scripts": {
     "start": "node build/index.js",
     "dev": "tsc-watch --onSuccess \"npm start\""
-  }
+  },
+  "keywords": [],
+  "author": "",
+  "description": ""
 }
